@@ -1,0 +1,60 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #3FD0D4;
+    --header-height: 80px;
+    --header-mobile-tablet-height: 69px;
+    --user-popup-height: 169px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        
+    }
+
+    to {
+        opacity: 1;  
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideB-T{
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
